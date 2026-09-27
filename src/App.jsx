@@ -4,12 +4,14 @@ import AboutPage from './pages/AboutPage'
 import ContactPage from './pages/ContactPage'
 import ContentPage from './pages/ContentPage'
 import HomePage from './pages/HomePage'
+import FinanceTrackerPage from './pages/FinanceTrackerPage'
 
 function App() {
   return (
     <Routes>
       <Route element={<SiteLayout />}>
         <Route path="/" element={<HomePage />} />
+        <Route path="/finance-tracker" element={<FinanceTrackerPage />} />
         <Route path="/content" element={<ContentPage />} />
         <Route path="/about" element={<AboutPage />} />
         <Route path="/contact" element={<ContactPage />} />

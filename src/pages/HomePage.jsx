@@ -18,12 +18,12 @@ function HomePage() {
               into one polished website for final-year presentation, evaluation, and portfolio use.
             </p>
             <div className="mt-8 flex flex-wrap gap-3">
-              <Link to="/content" className="inline-flex items-center gap-2 rounded-full bg-white px-5 py-3 text-sm font-semibold text-slate-900 transition hover:bg-[#f7f2e8]">
-                Explore Content
+              <Link to="/finance-tracker" className="inline-flex items-center gap-2 rounded-full bg-white px-5 py-3 text-sm font-semibold text-slate-900 transition hover:bg-[#f7f2e8]">
+                Setup Finance Tracker
                 <ArrowRight className="h-4 w-4" />
               </Link>
-              <Link to="/contact" className="inline-flex items-center rounded-full border border-white/15 px-5 py-3 text-sm font-semibold text-white transition hover:bg-white/10">
-                Contact Team
+              <Link to="/content" className="inline-flex items-center rounded-full border border-white/15 px-5 py-3 text-sm font-semibold text-white transition hover:bg-white/10">
+                Explore Features
               </Link>
             </div>
           </div>

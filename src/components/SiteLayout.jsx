@@ -4,6 +4,7 @@ import { NavLink, Outlet } from 'react-router-dom'
 
 const links = [
   { name: 'Home', to: '/' },
+  { name: 'Finance Tracker', to: '/finance-tracker' },
   { name: 'Content', to: '/content' },
   { name: 'About', to: '/about' },
   { name: 'Contact', to: '/contact' },
@@ -38,10 +39,10 @@ function SiteLayout() {
 
             <div className="hidden lg:block">
               <NavLink
-                to="/contact"
+                to="/finance-tracker"
                 className="rounded-full bg-slate-900 px-5 py-3 text-sm font-semibold text-white transition hover:bg-slate-800"
               >
-                Start Demo
+                Finance Tracker
               </NavLink>
             </div>
 
